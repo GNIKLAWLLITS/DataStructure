@@ -25,6 +25,8 @@ lis = arr.tolist()
 # Usage: array.fromlist()
 # -----------------------
 # 在array末尾附加列表中的元素
+arr0 = array.array('i')
+arr0.fromlist(lis)
 
 # Method: tobytes()
 # Usage: array.tobytes()
